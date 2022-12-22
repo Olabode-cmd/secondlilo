@@ -23,11 +23,9 @@ export default function creative() {
             </Head>
 
             <Header />
-            <main>
-                <Creativehero />
-                <Creativecontent />
-                <Sectioncontact />
-            </main>
+            <Creativehero />
+            <Creativecontent />
+            <Sectioncontact />
             <Footer />
         </div>
     )

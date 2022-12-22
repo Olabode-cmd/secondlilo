@@ -23,10 +23,8 @@ export default function Careers() {
             </Head>
 
             <Header />
-            <main>
-                <Sectioncareerhero />
-                <Careercontent />
-            </main>
+            <Sectioncareerhero />
+            <Careercontent />
             <Footer />
         </div>
     )

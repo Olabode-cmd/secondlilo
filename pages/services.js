@@ -26,15 +26,13 @@ export default function Services() {
             </Head>
 
             <Header />
-            <main>
-                <Sectionservicehero  />
-                <Servicecontent />
-                <Sectioncreative />
-                <Sectionmedia />
-                <Sectioncro />
-                <Sectionemails />
-                <Sectioncontact />
-            </main>
+            <Sectionservicehero />
+            <Servicecontent />
+            <Sectioncreative />
+            <Sectionmedia />
+            <Sectioncro />
+            <Sectionemails />
+            <Sectioncontact />
             <Footer />
         </div>
     )

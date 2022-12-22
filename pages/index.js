@@ -36,35 +36,33 @@ export default function Home() {
         <link rel="icon" href="/favicon1.ico" />
       </Head>
 
-      <main>
-       <Header />
-        {/* <h1>Lilo Next JS</h1> */}
-        
-          <Sectionhero />
+      <Header />
+      {/* <h1>Lilo Next JS</h1> */}
 
-          <Sectionclients />
+      <Sectionhero />
 
-          <Sectionabout />
+      <Sectionclients />
 
-          <Sectionservices />
+      <Sectionabout />
 
-          <Sectionpartners />
+      <Sectionservices />
 
-          <Sectionteam />
+      <Sectionpartners />
 
-          <Sectionblockquote
-            title="We can expect the same high standard and excellent quality of work from anyone on the team."
-            subtitle="We truly rely on them to be our voice to our fan base. They’ve become a fantastic extension of our internal team and a
+      <Sectionteam />
+
+      <Sectionblockquote
+        title="We can expect the same high standard and excellent quality of work from anyone on the team."
+        subtitle="We truly rely on them to be our voice to our fan base. They’ve become a fantastic extension of our internal team and a
           trusted partner in our daily work, which alleviates a lot of stress for our internal team."
-            profileimg={User.src}
-            name="Sarah Bishop"
-            position="VP of Marketing, NYC FC"
-            company={NY.src} />
+        profileimg={User.src}
+        name="Sarah Bishop"
+        position="VP of Marketing, NYC FC"
+        company={NY.src} />
 
-          <Sectionsupport />
+      <Sectionsupport />
 
-          <Sectioncontact />
-      </main>
+      <Sectioncontact />
 
       <Footer />
     </div>

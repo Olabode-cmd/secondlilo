@@ -26,63 +26,60 @@ export default function Contact() {
             </Head>
 
             <Header />
-            <main>
-                <div className="hero"></div>
-                <Sectioncontact />
+            <div className="hero"></div>
+            <Sectioncontact />
 
-                <section className="section-location">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-5">
-                                <div className="float">
-                                    <h1 className="title">
-                                        A Remote Company <br />
-                                        HQ'd out of Dumbo, <br />
-                                        Brooklyn
-                                    </h1>
+            <section className="section-location">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-5">
+                            <div className="float">
+                                <h1 className="title">
+                                    A Remote Company <br />
+                                    HQ'd out of Dumbo, <br />
+                                    Brooklyn
+                                </h1>
 
-                                    <div className="d-flex">
-                                        <img src={Icon1.src} alt="phone" />
-                                            <p>(347) 619-3312</p>
-                                    </div>
+                                <div className="d-flex">
+                                    <img src={Icon1.src} alt="phone" />
+                                    <p>(347) 619-3312</p>
+                                </div>
 
-                                    <div className="d-flex">
-                                        <img src={Icon2.src} alt="email" />
-                                            <p>start@lilosocial.com</p>
-                                    </div>
+                                <div className="d-flex">
+                                    <img src={Icon2.src} alt="email" />
+                                    <p>start@lilosocial.com</p>
                                 </div>
                             </div>
-                            <div className="col-md-7 mt-2">
-                                <img src={Bridge.src} alt="bridge" />
-                            </div>
+                        </div>
+                        <div className="col-md-7 mt-2">
+                            <img src={Bridge.src} alt="bridge" />
                         </div>
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <section className="section-uptodate">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-md-6">
-                                <h1 className="title">Stay up to date</h1>
-                                <p>Subscribe to our mailing list to get the latest news and case studies directly in your inbox.</p>
+            <section className="section-uptodate">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-md-6">
+                            <h1 className="title">Stay up to date</h1>
+                            <p>Subscribe to our mailing list to get the latest news and case studies directly in your inbox.</p>
 
-                                <form action="#" id="newsletter-form">
-                                    <div className="form-group">
-                                        <label htmlFor="email">Email Address<span>*</span> </label>
-                                        <input type="email" name="email" id="email" />
-                                    </div>
-                                    <p className="hidden">Thank you for subscribing</p>
-                                    <input type="submit" value="Subscribe" className="btn btn-outline reverse mt-4" />
-                                </form>
-                            </div>
-                            <div className="col-md-6">
-                                <img src={Uptodate.src} alt="stay" />
-                            </div>
+                            <form action="#" id="newsletter-form">
+                                <div className="form-group">
+                                    <label htmlFor="email">Email Address<span>*</span> </label>
+                                    <input type="email" name="email" id="email" />
+                                </div>
+                                <p className="hidden">Thank you for subscribing</p>
+                                <input type="submit" value="Subscribe" className="btn btn-outline reverse mt-4" />
+                            </form>
+                        </div>
+                        <div className="col-md-6">
+                            <img src={Uptodate.src} alt="stay" />
                         </div>
                     </div>
-                </section>
-
-            </main>
+                </div>
+            </section>
             <Footer />
         </div>
     )

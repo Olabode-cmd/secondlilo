@@ -24,14 +24,12 @@ export default function About() {
                 <link rel="icon" href="/favicon1.ico" />
             </Head>
 
-            <main>
-                <Header />
+            <Header />
 
-                <Sectionabouthero />
+            <Sectionabouthero />
 
-                <Aboutcontent />
-                <Sectioncontact />
-            </main>
+            <Aboutcontent />
+            <Sectioncontact />
 
             <Footer />
 
