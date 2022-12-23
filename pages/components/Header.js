@@ -2,13 +2,11 @@ import React, { useContext, useEffect, useState } from 'react';
 import Link from 'next/link';
 import Logo from '../../public/images/hero-logo.svg';
 // import styles from '../../styles/Lilo.module.css';
-import { useStateContext } from '../context/ContextProvider';
 
 import $ from 'jquery'
 
 export default function Header() {
     const [hamburger, setHamburger] = useState(false)
-
 
     useEffect(() => {
         let body = document.querySelector("body");

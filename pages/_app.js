@@ -5,7 +5,6 @@ import '../styles/Lilo.css';
 import Script from 'next/script';
 import $ from 'jquery';
 import { useEffect } from "react";
-import { ContextProvider } from "./context/ContextProvider";
 
 import Router from 'next/router';
 import NProgress from 'nprogress'; //nprogress module
@@ -24,9 +23,7 @@ function MyApp({ Component, pageProps }) {
 
 
     return (
-        <ContextProvider>
-            <Component {...pageProps} />
-        </ContextProvider>
+        <Component {...pageProps} />
 
     )
 }
