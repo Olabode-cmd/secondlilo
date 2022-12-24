@@ -136,7 +136,8 @@ export default function Sectioncontact() {
 
                               </div>
 
-                              <input type="submit" defaultValue="Send message" id="contactsubmit" className="btn primary-btn" />
+                              {/* <input type="submit" defaultValue="Send message" id="contactsubmit" className="btn primary-btn" /> */}
+                              <button type="submit" id="contactsubmit" className="btn primary-btn">Send Message</button>
 
 
                           </form>

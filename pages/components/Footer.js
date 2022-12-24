@@ -102,8 +102,9 @@ export default function Footer() {
                                                         </div>
                                                         <p className="hidden">Thank you for subscribing</p>
                                                         <div className="clear">
-                                                            <input type="submit" defaultValue="Subscribe" name="subscribe"
-                                                                id="mc-embedded-subscribe" className="btn primary-btn d-inline-block" />
+                                                            {/* <input type="submit" defaultValue="Subscribe" name="subscribe"
+                                                                id="mc-embedded-subscribe" className="btn primary-btn d-inline-block" /> */}
+                                                            <button type="submit" id="mc-embedded-subscribe" className="btn primary-btn d-inline-block">Subscribe</button>
                                                         </div>
                                                     </div>
                                                 </form>
